@@ -4,6 +4,8 @@ import NabBar from "../components/NavBar/NabBar.component";
 
 import Categories from "../components/Categories/Categories.component";
 import Slider from "../components/Slider/Slider.component";
+import Products from "../components/Product/Product.component";
+import Newsletter from "../components/Newsletter/Newsletter.component";
 interface Props {}
 
 export default function Home({}: Props): ReactElement {
@@ -13,6 +15,8 @@ export default function Home({}: Props): ReactElement {
       <NabBar />
       <Slider />
       <Categories />
+      <Products />
+      <Newsletter />
     </div>
   );
 }
