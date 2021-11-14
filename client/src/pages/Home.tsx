@@ -6,6 +6,7 @@ import Categories from "../components/Categories/Categories.component";
 import Slider from "../components/Slider/Slider.component";
 import Products from "../components/Product/Product.component";
 import Newsletter from "../components/Newsletter/Newsletter.component";
+import Footer from "../components/Footer/Footer.component";
 interface Props {}
 
 export default function Home({}: Props): ReactElement {
@@ -17,6 +18,7 @@ export default function Home({}: Props): ReactElement {
       <Categories />
       <Products />
       <Newsletter />
+      <Footer />
     </div>
   );
 }
